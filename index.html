@@ -1,0 +1,106 @@
+<html> 
+    <head>  
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LogIn</title>
+        <style>
+            body{
+                background-color: #c6eb0b;
+            }
+            /** form 1 **/
+            .f{
+                background-color: aqua;
+                width: 36%;
+                border: 1px solid #ccc;
+                border-radius: 25px;
+                text-align: center;
+                margin: 100px auto;
+            }
+
+            @media only screen and (max-width: 600px) {
+                .f {width: 90%; margin: 40% auto;}
+            }
+
+            .f:hover{
+                background-color: #182f79;
+                color: #f30b0b;
+            }
+
+            /** form 2 **/
+            .s{
+                background-color: aqua;
+                width: 36%;   
+                border-radius: 25px;
+                border: 1px solid #ccc;
+                text-align: center;
+                margin: -40px auto;
+            }
+
+            @media screen and (max-width: 600px) {
+                .s {width: 90%; margin: 40% auto;}
+            }
+
+            .s:hover{
+                background-color: #182f79;
+                color: #f30b0b;
+            }
+            
+            /** button **/
+            .submit{
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: 1px solid #ccc;
+                border-radius: 25px;
+                cursor: pointer;
+                width: 150px;
+                height: 75px;
+                font-size: 20px;
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+            
+            .submit:hover{
+                background-color: #791818;
+                color: #000000;
+            }
+            
+            .submit1{
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: 1px solid #ccc;
+                border-radius: 25px;
+                cursor: pointer;
+                width: 150px;
+                height: 75px;
+                font-size: 20px;
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+            
+            .submit1:hover{
+                background-color: #791818;
+                color: #000000;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="login">
+            <form action="userpass.html">
+                <div class="f">
+                    <h1>Click on the login button to login.</h1>
+                    <input type="submit" class="submit" value="login">
+                </div>
+            </form>
+        
+            <form action="user_account.php" >
+                <div class="s">
+                    <h3>Click on the User button to view the User Account.</h3>
+                    <input type="submit" class="submit1" value="Account">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
